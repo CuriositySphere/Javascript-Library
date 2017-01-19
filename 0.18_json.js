@@ -1,23 +1,13 @@
-// for (lcv = 0; lcv <10; lcv++) {
-// 	console.log("Kenny G");
-// }
-//var lcv = 0;
-//while (lcv <10) {
-//	lcv++
-//}
-// console.log("--------------------------")
-// var name = "Delicious";
-// //console.log(name.length);
-// for (lcv = 0; lcv < 9; lcv++) {
-// 	console.log(name[lcv]);  //console.log(name[0]) and  then [this number is increased by one each time]
-// }
+//JSON is an acronym for JavaScript Object Notation
+//advantage of having an object is you can add extra information to it
+//
+/*var names = ["Gavin", "Tony", "Aurora", "Lindsey", 72, true, false];*/
+/*console.log(names[2])  //square brackets dive into the index, 0 gives the first result, 1 the 2nd , etc
+console.log("------------------------------")*/
 
-var animal = "Norwegian Elkhound"
-for (i = 0; i < animal.length; i++) {
-	console.log(animal[i]);
-}
-
-//JSON
+var names = [["James", "Paul", "Cameron", "Christ"], ["Morgan", "Julie", "Abbey", "Brie"]];
+/*console.log(names[1][2])*/ ///find the array in index 0, and find the first value in that array , a nested array
+	
 
 //creating json first item
 var items = [
@@ -48,4 +38,3 @@ console.log(items[0]);  */    //calls from the array
 for (var i = 0; i<items.length; i++){     //i is the loop control variable
 	console.log(items[i].name)               //successfull item list loop is successful, harhar
 }
-
