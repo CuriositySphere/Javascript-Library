@@ -1,0 +1,21 @@
+.highlight {
+	background-color: red;
+}
+#id-combo-demo {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+
+	border: 10px;
+	background-image: url('cake.png');
+	background-size: cover;
+	z-index: 5
+}
+.class-combo-demo {
+	width: 150px
+	height: 150px;
+	padding: 0.5em;
+	background-color: gray;
+	border: 10px;
+	z-index: 2
+}

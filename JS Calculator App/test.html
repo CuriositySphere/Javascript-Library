@@ -1,0 +1,32 @@
+	<!DOCTYPE html>
+	<html>
+<head>
+<html>
+  <body>
+    <p>Gold Badge Calculator</p>
+    
+    <br/>
+    <br/>Number One:
+    <br>
+    <input type="text" id="txt1" name="text1">
+    <br>
+    <br> Number Two:
+    <br>
+    <input type="text" id="txt2" name="text2">
+    <br>
+    <br>
+    <button onclick="myFunction()">Add Numbers</button>
+    
+    <p> The total is: <p id="demo"></p>
+    <script>
+      function myFunction() {
+        var y = document.getElementById("txt1").value;
+        var z = document.getElementById("txt2").value;
+        var x = +y + +z;
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
+</body>
+	</html>	
